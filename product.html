@@ -1,0 +1,283 @@
+<!DOCTYPE html><html><head>
+<meta charset="gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="renderer" content="webkit" /><!--默认使用极速渲染模式-->
+
+<title>云养殖_智慧牧场_金光牧场养牛APP-内蒙古金光大农牧业发展有限公司</title>
+<meta content="金光牧场,牧场,养牛,领养,安格斯牛" name="keywords">
+<meta content="金光牧场是一家倡导中国农牧产品优品优价的高新技术企业。我们将云养殖,智慧牧场养牛与科技APP相结合，探索出一条可持续发展的智慧农牧业全产业链。" name="description">
+<meta name="author" content="内蒙古金光大农牧业发展有限公司">
+<meta name="Copyright" content="内蒙古金光大农牧业发展有限公司">
+<link href="css/green.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jq.js"></script>
+<script type="text/javascript" src="js/scorll21.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<link href="css/iconfont.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.fixedRange.js"></script>
+<link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/numgun.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<!--[if IE 6]>
+<script src="js/png.js"></script>
+<script>
+DD_belatedPNG.fix('.warp img');
+</script>
+<![endif]-->
+</head>
+<body>
+<SCRIPT LANGUAGE="JavaScript">
+var test = window.location.pathname;
+var test1 = window.location.search;
+function mobile_device_detect(url)
+ {
+var thisOS=navigator.platform;
+var os=new Array("iPhone","iPod","iPad","android","Nokia","SymbianOS","Symbian","Windows Phone","Phone","Linux armv71","MAUI","UNTRUSTED/1.0","Windows CE","BlackBerry","IEMobile");
+ for(var i=0;i<os.length;i++)
+        {
+ if(thisOS.match(os[i]))
+        {  
+  window.location=url;
+ }        
+ }
+ //因为相当部分的手机系统不知道信息,这里是做临时性特殊辨认
+ if(navigator.platform.indexOf('iPad') != -1)
+        {
+  window.location=url;
+ }
+ //做这一部分是因为Android手机的内核也是Linux
+ //但是navigator.platform显示信息不尽相同情况繁多,因此从浏览器下手，即用navigator.appVersion信息做判断
+  var check = navigator.appVersion;
+  if( check.match(/linux/i) )
+          {
+   //X11是UC浏览器的平台 ，如果有其他特殊浏览器也可以附加上条件
+if(check.match(/mobile/i) || check.match(/X11/i))
+  {
+	   window.location=url;
+  } 
+ }
+ //类in_array函数
+ Array.prototype.in_array = function(e)
+ {
+  for(i=0;i<this.length;i++)
+  {
+   if(this[i] == e)
+   return true;
+  }
+  return false;
+ }
+ }
+mobile_device_detect("wap"+test+test1);
+</SCRIPT>
+<div id="top_bg">
+  <div class="warp" style="position: relative;">
+    <div class="fl">您好，欢迎访问内蒙古金光大农牧业发展有限公司！</div>
+    <div class="fr">
+      <a onclick="AddFavorite('内蒙古金光大农牧业发展有限公司',location.href)" href="javascript:;" title="加入收藏">加入收藏</a> | <a onclick="SetHome(this,'http://www.jinguangmuchang.com')" href="javascript:;" title="设为首页">设为首页</a> | <a href="contact.asp">联系我们</a> | <a href="https://tb.53kf.com/code/client/7ed7616b2b98092f462d79f3028a372a3/1" target="_blank">立即咨询</a> | <a class="phone">400-6389-633</a>
+    </div>
+  </div>
+</div>
+<!---------top END--------->
+<div id="header" class="warp">
+  <div id="logo"><img src="images/20204191462745.png"></div>
+  <div id="tel">
+    <div class="tel_icon fl"></div>
+    <div class="tel_item fl"><h3>免费服务热线：</h3><p>400-6389-633</p></div>
+  </div>
+</div>
+<!---------header END--------->
+<div id="menu_bg">
+  <div class="warp nav nav3">
+    <ul>
+      <li><a href="/" class="mainlevel">网站首页</a></li>
+      <li><a href="about.asp" class="mainlevel">关于我们</a>
+        <ul>
+		  
+           <li><a href="about.asp?id=1" title="公司简介">公司简介</a></li>
+		  
+           <li><a href="about.asp?id=2" title="企业文化">企业文化</a></li>
+		  
+           <li><a href="about.asp?id=3" title="组织机构">组织机构</a></li>
+		  
+        </ul>
+      </li>
+      <li class="on"><a href="products.asp" class="mainlevel">产品中心</a>
+        <ul>
+		  
+           <li><a href="products.asp?classid=2" title="肉牛血统">肉牛血统</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="case.asp" class="mainlevel">项目案例</a>
+        <ul>
+		  
+           <li><a href="case.asp?classid=1" title="牛犊">牛犊</a></li>
+          
+           <li><a href="case.asp?classid=2" title="小牛">小牛</a></li>
+          
+           <li><a href="case.asp?classid=3" title="整牛喂养">整牛喂养</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="news.asp" class="mainlevel">新闻动态</a>
+        <ul>
+		  
+           <li><a href="news.asp?classid=1" title="公司动态">公司动态</a></li>
+          
+           <li><a href="news.asp?classid=2" title="员工天地">员工天地</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="scene.asp" class="mainlevel">环境风采</a>
+        <ul>
+		  
+           <li><a href="scene.asp?classid=1" title="牧场环境">牧场环境</a></li>
+          
+           <li><a href="scene.asp?classid=4" title="荣誉资质">荣誉资质</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="service.asp" class="mainlevel">服务支持</a>
+        <ul>
+		  
+           <li><a href="service.asp?id=1" title="金光理念">金光理念</a></li>
+          
+           <li><a href="service.asp?id=2" title="生态链">生态链</a></li>
+          
+           <li><a href="service.asp?id=3" title="牛肉产品">牛肉产品</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="recruit.asp" class="mainlevel">人才招聘</a>
+        <ul>
+		  
+           <li><a href="recruit.asp?id=1" title="人才战略">人才战略</a></li>
+          
+           <li><a href="recruit.asp?id=2" title="招聘岗位">招聘岗位</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="contact.asp" class="mainlevel">联系我们</a>
+        <ul>
+          <li><a href="contact.asp">联系我们</a></li>
+          <li><a href="feedback.asp">在线咨询</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-------menu END---------->
+<div id="page_banner" class="c" style="background: url(images/20200419155102.JPG) top center no-repeat;"></div>
+<!---------------page_banner END------------------>
+
+<div class="braedm01 b_shadow">
+  <div class="warp">
+    
+    <div class="navlujing fl">您的当前位置：<a href="/">首页</a> <span class="gt">&gt;</span> <a href="products.asp">产品中心</a> <span class="gt">&gt;</span> 全部信息</div>
+    
+  </div>
+</div>
+<!---------------位置 END------------------>
+<div class="warp pro_menu mt35">
+  <ul>
+
+  <li class="on"><a href="products.asp">全部大类</a></li>
+  
+  <li><a href="products.asp?classid=2">肉牛血统</a></li>
+  
+  </ul>
+</div>
+<!-----------page_nav END------------->
+<div  class="pro_list warp mt15" >
+  <ul>
+    
+    <li>
+      <a href="productshow.asp?id=67"><img src="images/202049235830482.jpg" alt="安格斯牛"></a>
+      <p><a href="productshow.asp?id=67">安格斯牛</a></p>
+    </li>
+    
+    <li>
+      <a href="productshow.asp?id=66"><img src="images/20204923500986.jpg" alt="澳洲和牛"></a>
+      <p><a href="productshow.asp?id=66">澳洲和牛</a></p>
+    </li>
+    
+    <li>
+      <a href="productshow.asp?id=65"><img src="images/202049234350285.jpg" alt="利木赞牛"></a>
+      <p><a href="productshow.asp?id=65">利木赞牛</a></p>
+    </li>
+    
+    <li>
+      <a href="productshow.asp?id=64"><img src="images/202049233659175.jpg" alt="西门塔尔牛"></a>
+      <p><a href="productshow.asp?id=64">西门塔尔牛</a></p>
+    </li>
+    
+  </ul>
+</div>
+<!--------------main END--------------->
+<div id="page">
+  <div class="scott">
+  <span class='current'>1</span>
+  <span class="rows">共 4 条记录</span>
+  </div>
+</div>
+<!------翻页 END------>
+<div class="foot_bg">
+  <div class="warp">
+    <div class="foot_nav">
+   <a href="/">网站首页</a> -  <a href="about.asp">关于我们</a> - <a href="products.asp">产品中心</a> - <a href="case.asp">项目案例</a> - <a href="news.asp">新闻动态</a> - <a href="scene.asp">环境风采</a> - <a href="problem.asp">常见问题</a> - <a href="service.asp">服务支持</a> - <a href="recruit.asp">人才招聘</a> - <a href="contact.asp">联系我们</a>
+    </div>
+    <div class="mt30">
+      <div class="foot_cont fl">
+        <div class="fl iconfont">&#xe66f;</div>
+        <div class="fl">
+          <p class="cont_a1">免费咨询热线</p>
+          <p class="cont_a2">400-6389-633</p>
+          <p class="cont_a3">【8:30-12:00 13:00-17:30 19:00-22:30】</p>
+          <p class="cont_a4 mt15"><a href="https://wpa.qq.com/msgrd?v=3&uin=578307888&site=qq&menu=yes" target="_blank">客户服务在线咨询</a></p>
+        </div>
+      </div>
+      <div class="foot_contact fl">
+		<div><b>内蒙古金光大农牧业发展有限公司</b></div>
+<div>联系人：陈经理 / 邮箱：CSD@jinguangmuchang.com</div>
+<div>地址：内蒙古自治区兴安盟扎赉特旗国有杨树沟林场</div>
+<div>Copyright &copy;&nbsp;金光牧场 All Rights Reserved.</div>
+<meta name="baidu-site-verification" content="dUMv3FsSK1" />
+      </div>
+      <div class="fr mt10">
+        <div class="foot_erweima"><img src="images/202041914937972.png"><p>扫码下载APP</p></div>
+        <div class="foot_erweima"><img src="images/20204920023854.png"><p>扫码浏览手机站</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!------------------底部版权 END--------------------->
+<div class="link_box">
+  <div class="warp"><strong>友情链接：</strong>
+	
+    <a href="http://www.tsrzcp.com" title="人造草坪" target="_blank">人造草坪</a> |
+	
+    <a href="http://www.ykypds.com/" title="雕塑制作厂家" target="_blank">雕塑制作厂家</a> |
+	
+    <a href="http://www.shengyeshicai.com/" title="路缘石" target="_blank">路缘石</a> |
+	
+    <a href="http://www.zkbxjs.com/" title="去除农残留" target="_blank">去除农残留</a> |
+	
+    <a href="http://www.bstmold.com/" title="碧斯特" target="_blank">碧斯特</a> |
+	
+    <a href="http://www.lonagift.com" title="广州礼品公司" target="_blank">广州礼品公司</a> |
+	
+    <a href="http://www.hstsqt.com" title="山东皇圣堂" target="_blank">山东皇圣堂</a> |
+	
+    <a href="http://www.orientexam.com.cn" title="仿真树" target="_blank">仿真树</a> |
+	
+    <a href="http://www.uglypig.cn" title="新手养猫" target="_blank">新手养猫</a> |
+	
+    <a href="http://www.hydrosj.com/" title="斯京水利" target="_blank">斯京水利</a> |
+	
+    <a href="http://www.hezhengdianqi.com/" title="合正电气" target="_blank">合正电气</a> |
+	
+  </div>
+</div>
+<!------------------友情链接 END--------------------->
+
+</body></html>
